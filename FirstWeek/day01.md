@@ -31,7 +31,7 @@ def solution(arr):
         
     return answer
 ```
-
+***성고응!***
 
 채점 결과
 정확성: 71.9
