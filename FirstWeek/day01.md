@@ -31,4 +31,8 @@ def solution(arr):
         
     return answer
 ```
+* 채점 결과
 
+정확성: 71.9
+효율성: 21.1
+합계: 93.0 / 100.0
