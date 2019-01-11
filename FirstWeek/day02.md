@@ -60,7 +60,7 @@ for i in range(a):
         print(int(c[i]), end=' ')
     
 ```
-> split의 결과를 매번 int로 변환해주려니 귀찮기때문에 map을 함께 사용하면 된다.
+1. split의 결과를 매번 int로 변환해주려니 귀찮기때문에 map을 함께 사용하면 된다.
 
 map에 int와 input().split()을 넣으면 split의 결과를 모두 int로 변환해준다(실수로 변환할 때는 int 대신 float) 
 
@@ -70,7 +70,7 @@ ex)
 
 변수1, 변수2 = map(int, input().split('기준문자열'))
 
-> 출력값을 이어서 출력하려면 end =' '
+2. 출력값을 이어서 출력하려면 end =' '
 
 
 * 채점 결과
