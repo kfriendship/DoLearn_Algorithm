@@ -26,7 +26,6 @@ for i in range(0,int(a)) :
         
 print(result)
         
-    return answer
 ```
 
 입력받을때 input()보다 sys.stdin.readlines()를 쓰는게 속도가 더 빠르다고 한다.
