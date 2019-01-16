@@ -49,3 +49,35 @@ elif int(a[::-1])<int(b[::-1]) :
 * 채점 결과
 
 성고응
+  
+  
+  
+#### __<스터디 복습>__
+  
+ 
+* 다른 코드
+
+```Python3
+def my_reverse(arg):
+    ret = ''
+    length = len(arg)
+    for i in range(length - 1, -1, -1):
+        ret += arg[i]
+    return ret
+
+
+# python >= 2.5
+def my_max(arg1, arg2):
+    return arg1 if arg1 > arg2 else arg2
+
+
+a, b = input().split()
+a = my_reverse(a)
+b = my_reverse(b)
+mx = my_max(int(a), int(b))
+print(mx)
+    
+```
+  
+최대값을 구하는 함수에서 삼항연산자 사용!
+https://blueshw.github.io/2016/01/22/python-conditional-ternary-operator/ python 삼항연산자 개념
