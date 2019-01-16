@@ -39,6 +39,25 @@ def solution(arr):
 
 합계: 93.0 / 100.0
 
+---
+###### 스터디 복습  
+
+* 다른 코드
+```Python3
+
+def solution(arr):
+    answer = []
+    cur_num = -1
+    for item in arr:
+        if cur_num != item:
+            cur_num = item
+            answer.append(item)
+    return answer
+```
+
+
+
+
 
 
 
