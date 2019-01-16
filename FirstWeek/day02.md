@@ -34,7 +34,25 @@ print(result)
 
 * 채점 결과
 
-성고응!
+성고응!  
+  
+  
+---  
+#### __<스터디 복습>__  
+
+* 다른 코드
+```Python3
+n = int(input())
+line = list(map(int, input().split()))
+cnt = 0
+
+for i in range(0, n):
+    if line[i] != i + 1:
+        cnt += 1
+
+print(cnt)
+        
+```
 
 
 
@@ -74,4 +92,24 @@ ex)
 
 * 채점 결과
 
-성고응
+성고응  
+  
+  
+  
+---  
+#### __<스터디 복습>__  
+
+* 다른 코드
+```Python3
+n, x = list(map(int, input().split()))
+line = list(map(int, input().split()))
+
+for item in line:
+    if item < x:
+        print(item, end=' ')
+        
+```
+
+for문에서 주로 range를 이용해서 써봐서  
+for item in line 같이 쓰는게 아직 익숙하지않다.  
+다음주에는 자주 이용해봐야겄다~
