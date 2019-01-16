@@ -98,3 +98,39 @@ def solution(a, b):
 합계: 100.0 / 100.0
 
 kiki
+
+---
+#### __<스터디 복습>__  
+
+* 다른 코드(swap)
+```Python3
+def solution(a, b):
+    answer = 0
+    if a > b:
+        a, b = b, a
+    for i in range(a, b + 1):
+        answer += i
+    return answer
+```
+나는 a>b 일때랑 a>b 일때 나눠서 구했는데<br>
+a,b=b,a 를 이용해 swap해주면 더 간단하게 짤수있다!  
+good  
+  
+  
+또한 고등학교때 배웠던 등차수열 합 공식을 이용하는 방법도 있다.
+https://www.youtube.com/watch?v=5cYZX47w7gQ 공식 증명 관련
+  
+  
+* 다른 코드(등차수열 합)
+```Python3
+def solution(a, b):
+    answer = 0
+    if a > b:
+        a, b = b, a
+    a = a - 1
+    answer = b*(b+1)/2 - a*(a+1)/2
+    return answer
+```  
+  
+등차수열 합 공식을 이용하게 되면 반복문을 사용하지 않기때문에  
+실행속도가 빨라진다
