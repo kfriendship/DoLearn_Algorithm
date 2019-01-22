@@ -7,7 +7,11 @@ https://www.acmicpc.net/problem/1003
 <img width="573" alt="2-3" src="https://user-images.githubusercontent.com/29175001/51527420-c5cd0500-1e77-11e9-85c0-96e8f3f9235f.png">
   
   
-** 피보나치표 **
+  
+  
+__피보나치표__  
+  
+  
 <img width="658" alt="default" src="https://user-images.githubusercontent.com/29175001/51527491-ea28e180-1e77-11e9-9a39-090d41098653.png">
   
 표를 보면 0과1의 호출횟수도 피보나치 수열을 따른다는 것을 알 수 있다.  
