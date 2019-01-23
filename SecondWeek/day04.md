@@ -17,7 +17,7 @@ result = []
 result.insert(0, 0) 
 result.insert(1, 1) # 1을 넣을 경우 경우의 수 1가지(1)
 result.insert(2, 2) # 2를 넣을 경우 경우의 수 2가지(1+1, 2)
-result.insert(3, 4) # 3을 넣을 경우 경우의 수 3가지 (1+1+1, 1+2, 2+1, 3)
+result.insert(3, 4) # 3을 넣을 경우 경우의 수 4가지 (1+1+1, 1+2, 2+1, 3)
  
 for i in range(0, a):
     n = int(input())
