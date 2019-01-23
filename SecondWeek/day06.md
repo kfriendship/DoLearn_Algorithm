@@ -4,7 +4,7 @@
 
 https://www.acmicpc.net/problem/2156
 
-<img width="423" alt="2-5" src="https://user-images.githubusercontent.com/29175001/51533568-9d98d280-1e86-11e9-92f5-91fc4a6c4555.png">
+<img width="587" alt="2-66" src="https://user-images.githubusercontent.com/29175001/51594379-a5fd1600-1f37-11e9-89e1-8b72a87b5c10.png">
 
   
 
