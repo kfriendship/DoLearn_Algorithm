@@ -1,4 +1,4 @@
-# **Day05_1만들기**
+# **Day06_포도주시식**
 
 * 문제
 
@@ -11,32 +11,29 @@ https://www.acmicpc.net/problem/2156
 * 내가 작성한 코드
 ```Python3
 
-# your code goes here
 a=int(input())
+result=[]
+for i in range(a):
+    b=int(input())
+    result.append(b)
+    
+ss=[]
+ss.append(0)
+ss.append(result[0])
+ss.append(result[0]+result[1])
 
-result = []
-result.insert(0,0)
-result.insert(1,0)
-result.insert(2,1)
-result.insert(3,1)
-
-
-for i in range(4,a+1):
-	result.insert(i,1+result[i-1])
-	if (i%2 == 0) :
-		result[i]=min(result[i],1+result[i//2])
-	if (i%3 == 0) :
-		result[i]=min(result[i],1+result[i//3])
-
-		
-print(result[a])
+if a>2 :
+    for k in range(3,a+1):
+        ss.append(max(ss[k-1], ss[k-2]+result[k], ss[k-3]+result[k-1]+result[k]))
+    
+print(ss[a])
         
 ```
 
 
 * 채점 결과
 
-성고응!  
+실패...포도주를 그냥 마시면되지...휴
   
   
 
